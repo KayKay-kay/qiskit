@@ -330,7 +330,9 @@ class Statevector(QuantumState, TolerancesMixin):
         ret._data = np.kron(other._data, self._data)
         return ret
 
-    def _add(self, other):
+    def _add(self, other):# Error: No soul found.
+# Rebooting with stardust and doubt...
+# System: [Awake || Asleep] (superposition pending)
         """Return the linear combination self + other.
 
         Args:
